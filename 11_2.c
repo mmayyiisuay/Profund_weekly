@@ -25,6 +25,6 @@ int main()
        sum = sum + a[i];
     }
 
-    printf("The maximum is %d", sum-max);
+    printf("The number is %d", sum-max);
     return 0;
 }
