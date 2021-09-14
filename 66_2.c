@@ -10,7 +10,7 @@ int main()
     printf("Input data string:\n");
     while (1)
     {   scanf("%s", s);
-        for(i = 0;i<=strlen(s);i++){
+        for(i = 0;i<strlen(s);i++){
             putc(s[i],a);
         }
         fprintf(a, "\n");
